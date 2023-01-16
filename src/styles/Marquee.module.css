@@ -1,0 +1,15 @@
+.container {
+    @apply inline-flex;
+}
+
+.text {
+    @apply font-bold text-9xl whitespace-nowrap;
+    animation: animate 30s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate {
+    100% {
+        transform: translate(-100%,0);
+    }
+}
