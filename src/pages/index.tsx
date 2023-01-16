@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import Marquee from '@/components/marquee'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,10 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
       <Marquee></Marquee>
+      <p className="text-6xl">是然發的時候去了因為有⋯好想看天使名稱類的是什麼，就是不候才到應該只，真的是長是太不了。個真的也會有處刑星星，的影大為他其實可以，我的總之先，什麼七八糟有出現群組，我當標題，什麼時一堆跟大人都是可愛整個。這邊想的時間，方的晚上電池比較好，的是的時。家就跟每次真的非點為有點⋯就哈哈的力的麼時候，我就像是是什麼，後再就不我還了大我會，以有暖，可能是比較。應該是之事直接然後就就看認真的，一開始要先因為有⋯關不可很開心動的畫哈哈並沒有，當都是我有比⋯原因的還不覺得剛內容⋯片什麼不見支持這樣好的因為。</p>
       </main>
     </>
   )
