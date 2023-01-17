@@ -1,5 +1,5 @@
 .container {
-    @apply inline-flex;
+    @apply inline-flex overflow-x-clip w-full;
 }
 
 .text {
